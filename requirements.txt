@@ -2,3 +2,4 @@ openai
 flask
 python-dotenv
 flask-cors
+fuzzywuzzy
