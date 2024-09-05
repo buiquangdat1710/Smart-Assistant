@@ -8,7 +8,7 @@ class OpenAIClient:
 
     def chat(self, messages):
         completion = self.client.chat.completions.create(
-            model="gpt-4o",
+            model="gpt-4o-mini",
             messages=messages
         )
         # completion.choices[0].message.content
