@@ -208,7 +208,7 @@ else:
     def generate_response(prompt):
         # Check if the prompt is in the predefined list
         best_match, score = find_best_match(prompt)
-        if score >= 95:  # Tùy chỉnh điểm số tương đồng theo nhu cầu của bạn
+        if score >= 85:  # Tùy chỉnh điểm số tương đồng theo nhu cầu của bạn
             return predefined_prompts[best_match]
 
         # Nếu không có trong danh sách có sẵn, sử dụng OpenAIClient
